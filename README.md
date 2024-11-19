@@ -17,6 +17,10 @@ Caso queira verificar o código, é o createInserts.
 Ter as bibliotecas PSYCOPG2 e CASSANDRA instaladas.
 Além de estar rodando um docker local conectado no Cassandra.
 
+docker pull cassandra:latest
+
+docker run --name Projeto cassandra:latest
+
 # DESCRIÇÃO DE USO:
 
 1. Abrir a pasta Scripts Python e rodar o arquivo createDB.
