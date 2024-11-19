@@ -12,7 +12,7 @@ Usamos as bibliotecas do psycopg2 para podermos fazer selects do projeto passado
 
 Caso queira verificar o código, é o createInserts.
 
-#PRÉ-REQUISITOS:
+# PRÉ-REQUISITOS:
 
 Ter as bibliotecas PSYCOPG2 e CASSANDRA instaladas.
 Além de estar rodando um docker local conectado no Cassandra.
