@@ -59,14 +59,9 @@ session.execute("""
     CREATE TABLE IF NOT EXISTS departamento (
         id_professor int,
         nome_professor TEXT,
-        id_departamento int,
-        nome_departamento TEXT,
         id_chefe_departamento int,
         nome_chef_departamento TEXT,
-        semestre int,
-        ano int,
-        nota int,
-        PRIMARY KEY ((id_professor), id_departamento)
+        PRIMARY KEY ((id_professor), id_chefe_departamento)
     ) 
 """)
 
